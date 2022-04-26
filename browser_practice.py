@@ -15,8 +15,8 @@ if __name__ == '__main__':
     ]
 
 root = tkinter.Tk()
-for info in list:
-    btn = Click(*info)
+for i in list:
+    btn = Click(*i)
     btn.pack()
 root.mainloop()
 
